@@ -1,0 +1,81 @@
+.navBar, .navBar-clone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Lato', sans-serif;
+}
+
+.navBar-clone {
+    background-color: white;
+    width: fit-content;
+    margin-left: 0;
+    padding: 0 9.5%;
+    position: fixed;
+    top: -100px;
+    z-index: 100;
+}
+
+.lockIcon-clone {
+    color: #25b742;
+}
+
+.showNavScroll {
+    position: fixed;
+    top:0;
+    background-color: white;
+    width: 100%;
+    margin-left: 0;
+}
+
+.navBar-logo {
+    /* margin-left: 200px; */
+    /* font-family: 'Courgette', cursive; */
+}
+
+.navBar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    margin-right: 600px;
+    font-weight: 600;
+}
+
+.navBar-menu h3 {
+    font-family: 'Courgette', cursive;
+    text-transform: none;
+    font-size: 24px;
+}
+
+.navBar-login {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.lockIcon {
+    color: #ff7846;
+    font-size: 12pt !important;
+}
+
+.schedule-button {
+    text-transform: none !important;
+    background-color: #ff7846 !important;
+    font-weight: 600 !important;
+}

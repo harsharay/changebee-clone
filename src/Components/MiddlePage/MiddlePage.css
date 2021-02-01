@@ -1,0 +1,254 @@
+.middlePage-topIllustration {
+    width: 50%;
+    height: 50%;
+}
+
+.middle-page-content {
+    margin-top: 10%;
+    font-size: 14pt;
+    /* font-weight: 600; */
+    font-family: 'Lato', sans-serif;
+}
+
+.middle-page-companies-div {
+    /* border: 2px solid red; */
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    white-space: nowrap;
+}
+
+.middle-page-companies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
+    /* overflow: hidden; */
+    margin-top: 30px;
+    animation: bannermove 5s linear infinite;
+    white-space: nowrap;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+
+.middle-page-companies img {
+    width: 30%;
+    height: 50%;
+    margin: 0 5%;
+}
+
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-100%, 0);
+      }
+  }
+
+.recurring-bill-section {
+    width: 55%;
+    margin-top: 5%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.recurring-bill-section-content {
+    text-align: left;
+}
+
+.recurring-bill-sub-text {
+    font-size: 10pt;
+    color: #000ff0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.recurring-bill-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.recurring-bill-paragraph {
+    font-size: 18px;
+    width: 60%;
+}
+
+.recurring-bill-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 7%;
+}
+
+.recurring-bill-sections p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content
+}
+
+.sections-icons {
+    color: #0ba011 !important;
+    margin-right: 8px;
+}
+
+.recurring-bill-sections-button {
+    margin-top: 5% !important;
+    border: 1px solid #000ff0 !important;
+    color: #000ff0 !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+    font-weight: 600 !important;
+}
+
+.recurring-button-icon {
+    font-size: 16px !important;
+    margin-left: 5px;
+    /* font-weight: 800 !important; */
+}
+
+.subscription-management-section {
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 24%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.subscription-management-section img {
+    position: relative;
+    left: -80px;
+}
+
+.streamline-revenue-section {
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.revenue-management-block {
+    background-color: #361b7f;
+    margin-top: 25%;
+}
+
+.revenue-management-content {
+    text-align: left;
+    margin-left: 24%;
+}
+
+.revenue-mgmt-header {
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -0.2px;
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.revenue-mgmt-header-second {
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -0.2px;
+    margin-top: -50px;
+}
+
+.revenue-mgmt-subText {
+    font-size: 18px;
+    color: #cdc6df;
+    width: 35%;
+    line-height: 28px;
+}
+
+.revenue-mgmt-image {
+    width: 50%;
+}
+
+.revenue-grid-block {
+    background-color: #361b7f;
+}
+
+.revenue-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 23%;
+    width: 50%;
+    
+}
+
+.revenue-singleGrid {
+    text-align: left;
+    /* width: 50%; */
+    color: white;
+    margin-top: 15%;
+    margin-left: 20%;
+    font-family: 'Lato', sans-serif;
+}
+
+.revenue-grid-subText {
+    font-size: 10pt;
+    color: #ff7846;
+    font-family: 'Inconsolata', monospace;
+}
+
+.revenue-grid-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.revenue-singleGrid img {
+    width: 90%;
+}
+
+.revenue-grid-bottomText {
+    color: #c9c4d8;
+    font-size: 18px;
+    line-height: 28px;
+    width: 90%;
+}
+
+.revenue-grid-buttons {
+    margin-top: 10px !important;
+    background-color: white !important;
+    color: #000ff0 !important;
+    text-transform: none !important;
+}
+
+.talk-to-us-section {
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.talk-to-us-section p {
+    width: 15%;
+    line-height: 30px;
+}
+
+.seperator {
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin-left: 26%;
+    opacity: 10%;
+}

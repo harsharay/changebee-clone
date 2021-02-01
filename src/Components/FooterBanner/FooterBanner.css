@@ -1,0 +1,10 @@
+.footer-banner {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: #500ad2;
+    font-size: 16px;
+    font-weight: 700;
+}
