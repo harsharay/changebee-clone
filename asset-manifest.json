@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/changebee-clone/static/css/main.08abe193.chunk.css",
-    "main.js": "/changebee-clone/static/js/main.15fe8cd7.chunk.js",
-    "main.js.map": "/changebee-clone/static/js/main.15fe8cd7.chunk.js.map",
+    "main.css": "/changebee-clone/static/css/main.58df9365.chunk.css",
+    "main.js": "/changebee-clone/static/js/main.4300f710.chunk.js",
+    "main.js.map": "/changebee-clone/static/js/main.4300f710.chunk.js.map",
     "runtime-main.js": "/changebee-clone/static/js/runtime-main.d1cefeb4.js",
     "runtime-main.js.map": "/changebee-clone/static/js/runtime-main.d1cefeb4.js.map",
     "static/js/2.aa14bbd3.chunk.js": "/changebee-clone/static/js/2.aa14bbd3.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.e7650777.chunk.js": "/changebee-clone/static/js/3.e7650777.chunk.js",
     "static/js/3.e7650777.chunk.js.map": "/changebee-clone/static/js/3.e7650777.chunk.js.map",
     "index.html": "/changebee-clone/index.html",
-    "static/css/main.08abe193.chunk.css.map": "/changebee-clone/static/css/main.08abe193.chunk.css.map",
+    "static/css/main.58df9365.chunk.css.map": "/changebee-clone/static/css/main.58df9365.chunk.css.map",
     "static/js/2.aa14bbd3.chunk.js.LICENSE.txt": "/changebee-clone/static/js/2.aa14bbd3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1cefeb4.js",
     "static/js/2.aa14bbd3.chunk.js",
-    "static/css/main.08abe193.chunk.css",
-    "static/js/main.15fe8cd7.chunk.js"
+    "static/css/main.58df9365.chunk.css",
+    "static/js/main.4300f710.chunk.js"
   ]
 }
