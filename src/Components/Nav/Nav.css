@@ -30,11 +30,6 @@
     margin-left: 0;
 }
 
-.navBar-logo {
-    /* margin-left: 200px; */
-    /* font-family: 'Courgette', cursive; */
-}
-
 .navBar-menu {
     display: flex;
     flex-direction: row;
@@ -49,6 +44,14 @@
     font-family: 'Courgette', cursive;
     text-transform: none;
     font-size: 24px;
+}
+
+.navBar-menu p {
+    cursor: pointer;
+}
+
+.navBar-menu a {
+    text-decoration: none;
 }
 
 .navBar-login {
@@ -78,4 +81,23 @@
     text-transform: none !important;
     background-color: #ff7846 !important;
     font-weight: 600 !important;
+}
+
+.navBar-expandList {
+    height: 30%;
+    background-color: white;
+    display: none;
+    transition: 0.2s ease-in-out all;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navBar-expandList-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 15%;
+    text-align: left;
 }
